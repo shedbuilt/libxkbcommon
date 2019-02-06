@@ -1,0 +1,10 @@
+NAME=libxkbcommon
+VERSION=0.8.2
+REVISION=1
+LICENSE=X11
+SRC=https://xkbcommon.org/download/libxkbcommon-0.8.2.tar.xz
+SRCMD5=5f7f8533f907ebcfb1cf8dceb9501264
+BUILDDEPS=xkeyboard-config wayland
+INSTALLDEPS=xkeyboard-config wayland
+OPTIONS=(docs)
+DEFAULTS=docs
